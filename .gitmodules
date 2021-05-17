@@ -1,0 +1,3 @@
+[submodule "fontdozenalizer"]
+	path = fontdozenalizer
+	url = https://github.com/dznl/fontdozenalizer
