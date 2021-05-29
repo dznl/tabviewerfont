@@ -15,6 +15,10 @@ lookup to_hyphen { substitute @digit by hyphen; } to_hyphen;
 
 feature calt {
 
+  ignore substitute @digit' @digit @digit ;
+  ignore substitute @digit @digit' @digit ;
+  ignore substitute @digit @digit @digit' ;
+
   substitute one' lookup to_T zero' lookup to_hyphen ;
   substitute one' lookup to_E one' lookup to_hyphen ;
   substitute one' lookup to_one two' lookup to_zero ;
