@@ -1,6 +1,6 @@
 #!/bin/bash
 source ~/.bash_aliases
-python3 addglyphs.py CascadiaCode.ttf CascadiaCodeEnriched.ttf
+python3 fontdozenalizer/addglyphs.py CascadiaCode.ttf CascadiaCodeEnriched.ttf
 bash addfeatures.sh CascadiaCodeEnriched.ttf CascadiaTablature.ttf
 rm "CascadiaTablature.ttf"
 git add "CascadiaTablature.ttf.ttx"
